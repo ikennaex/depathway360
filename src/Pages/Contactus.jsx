@@ -1,6 +1,6 @@
 import React from "react";
 import "./contactus.css";
-import { FaPhoneAlt } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa"; 
 import { IoIosMail } from "react-icons/io";
 
 const Contactus = () => {
