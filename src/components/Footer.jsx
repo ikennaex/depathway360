@@ -31,6 +31,7 @@ const Footer = () => {
           <FaInstagram color="#0E2279" size={25} />
           </a>
         </div>
+        
       </div>
 
       <p className="copyright">Copyright DePathway360 @ {date}</p>
