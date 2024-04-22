@@ -1,0 +1,47 @@
+.footer-main {
+    background-color: #F8F8F8;
+    padding: 10px 35px;
+    margin-top: 100px;
+    /* position:fixed;
+    width: 100%;
+    bottom:0; */
+}
+
+.footer-logo {
+    height: 70px;
+}
+
+.logoandname {
+    display: flex;
+    align-items: center;
+}
+
+.logo-txt {
+    font-weight: 600;
+}
+
+.sociallinks-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.social-txt { 
+    font-weight: 600;
+}
+
+.social-links {
+    display: flex;
+    gap: 20px;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+
+}

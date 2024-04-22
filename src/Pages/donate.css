@@ -1,0 +1,55 @@
+.donation-div {
+    /* width: 700px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.donationintro-txt {
+    width: 60%;
+}
+
+.donation-logo {
+    height: 30px;
+    margin-bottom: 0;
+}
+
+.depathwaydonation-txt {
+    margin-top: 0;
+    font-size: 25px;
+    color: #0E2279;
+}
+
+.donationsacct-maindiv {
+    background-color: #F8F8F8;
+    text-align: center;
+    width: 60%;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.donationacct-div {
+}
+
+.donation-acct {
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+}
+
+.zenith-txt {
+    font-size: 25px;
+    color: gray;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .donationintro-txt {
+        width: 80%;
+    }
+
+    .donationsacct-maindiv {
+        width: 80%;
+    }
+}
