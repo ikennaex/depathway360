@@ -27,12 +27,12 @@ button {
 a {
   text-decoration: none;
   color: inherit;
+  outline: none;
 }
 
-a:focus {
+/* a:focus {
   outline: none;
-  box-shadow: 0 0 2px 2px rgba(0, 0, 255, 0.5);
-}
+} */
 
 a:visited {
   text-decoration: none;
