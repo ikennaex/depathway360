@@ -4,7 +4,6 @@ import { FaTwitter } from "react-icons/fa";
 
 import "./footer.css";
 import { pathway360logo } from "../imports";
-import { Link } from "react-router-dom";
 
 const Footer = () => {
   const date = new Date().getFullYear();
