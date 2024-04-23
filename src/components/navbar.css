@@ -15,3 +15,16 @@
 .logo {
     height: 120px;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .logo {
+        height: 70px;
+    }
+
+    .donate-btn {
+        height: 40px;
+        width: 90px;
+        padding: 0;
+    }
+}

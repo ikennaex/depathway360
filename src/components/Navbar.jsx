@@ -24,7 +24,7 @@ const Navbar = () => {
 
       <div>
         <Link to = "/donate">
-        <button>Donate</button>
+        <button className='donate-btn'>Donate</button>
         </Link>
       </div>
     </div>

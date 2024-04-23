@@ -14,7 +14,14 @@
     .aboutus-maindiv {
         margin: 20px 20px;
         text-align: justify;
-        
+    }
+
+    .aboutus-p {
+        margin-top: 0;
+    }
+
+    .aboutus-text {
+        margin-bottom: 4px;
     }
 
 }

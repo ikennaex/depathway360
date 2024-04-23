@@ -6,7 +6,7 @@ const AboutUsPage = () => {
     <div className='aboutus-maindiv'>
         <div className='about-div'>
             <p className='aboutuspageheader-txt'>About Us</p>
-            <p>
+            <p className='about-us-p'>
             Welcome to DePathway360 Empowerment Initiative
 
             We are DePathway360 Empowerment Initiative, a non-profit, non-political, and non-governmental organization dedicated to fostering growth and positive change. Our passion lies in helping people grow, empowering lives, and commitment to environmental stewardship.

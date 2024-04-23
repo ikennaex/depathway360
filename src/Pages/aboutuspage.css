@@ -3,3 +3,16 @@
     font-weight: 600;
     color: #0E2279;
 }
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .aboutuspageheader-txt  {
+        margin-bottom: 0;
+    }
+
+    .about-us-p {
+        /* margin-top: 0; */
+    }
+}
