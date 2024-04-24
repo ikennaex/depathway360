@@ -18,6 +18,10 @@
 
 @media only screen and (max-width: 600px) {
 
+    .navbar-div {
+        padding: 0 10px;
+    }
+
     .logo {
         height: 70px;
     }
@@ -30,6 +34,6 @@
 
     .nav-links {
         font-size: 14px;
-    
+        gap: 30px;
     }
 }
