@@ -26,7 +26,7 @@ const Footer = () => {
 
           <FaTwitter color="#0E2279" size={25} />
 
-          <a target="_blank" href="https://www.instagram.com/depathway360empowerment/">
+          <a target="_blank" href="https://www.instagram.com/depathway360empowerment/"> 
           <FaInstagram color="#0E2279" size={25} />
           </a>
         </div>

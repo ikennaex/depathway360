@@ -1,11 +1,12 @@
 import React from 'react'
-import { pathway360logo } from '../imports'
 import "./navbar.css"
-import { Link } from 'react-router-dom'
+import { pathway360logo } from '../imports'
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <div className='navbar-div'>
+    <div>
+      <div className='navbar-div'>
       <div>
         <Link to = "/">
         <img className='logo' src={pathway360logo} alt="" />
@@ -27,6 +28,7 @@ const Navbar = () => {
         <button className='donate-btn'>Donate</button>
         </Link>
       </div>
+    </div>
     </div>
   )
 }

@@ -27,4 +27,9 @@
         width: 90px;
         padding: 0;
     }
+
+    .nav-links {
+        font-size: 14px;
+    
+    }
 }
