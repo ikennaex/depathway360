@@ -49,7 +49,7 @@ const Contactus = () => {
 
         <div className="contacttxt-innerdiv">
         <IoIosMail color="#0E2279" size={45} />
-          Send us a message or Email us info@depathway360.com
+          Send us a message or Email us info@depathway360.org
         </div>
       </div>
     </div>

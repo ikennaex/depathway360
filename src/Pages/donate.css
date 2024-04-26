@@ -33,7 +33,7 @@
 }
 
 .donation-acct {
-    font-size: 60px;
+    font-size: 40px;
     font-weight: 800;
     text-align: center;
 }
@@ -47,6 +47,12 @@
 @media only screen and (max-width: 600px) {
     .donationintro-txt {
         width: 80%;
+    }
+
+    .donation-acct {
+        font-size: 25px;
+        font-weight: 800;
+        text-align: center;
     }
 
     .donationsacct-maindiv {

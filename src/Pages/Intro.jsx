@@ -12,13 +12,13 @@ const Intro = () => {
 
       <div className="intro-textdiv">
       <h1 className="welcome-txt">Welcome to DePathway360 Official Website</h1>
-      <p className="welcomeetxt-subtext">
+      {/* <p className="welcomeetxt-subtext">
         Your kindness can make a lasting impact and change lives.
       </p>
 
       <Link to = '/donate'>
       <button>Donate now</button>
-      </Link>
+      </Link> */}
 
       </div>
     </div>
