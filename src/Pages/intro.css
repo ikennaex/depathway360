@@ -38,6 +38,10 @@
         font-size: 15px;
     }
 
+    .intro-textdiv {
+        margin: 0 20px;
+    }
+
     .intro-img {
         filter: brightness(1);
         background-size: cover;
