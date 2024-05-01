@@ -44,7 +44,7 @@ const Contactus = () => {
       <div className="contact-txtbtm"> 
         <div className="contacttxt-innerdiv">
         <FaPhoneAlt color="#0E2279" size={35} />
-          Give us a Call 0811 592 8769
+          Give us a Call +234 811 592 8769
         </div>
 
         <div className="contacttxt-innerdiv">

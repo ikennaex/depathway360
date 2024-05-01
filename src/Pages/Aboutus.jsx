@@ -6,7 +6,11 @@ const Aboutus = () => {
   return (
     <div className='aboutus-maindiv'>
         <div>
+
+          <div className='textdesign-div'>
+            <div className='text-decor'></div>
             <p className='aboutus-text'>About Us</p>
+          </div>
 
             <p className='aboutus-p'>
             Welcome to DePathway360 Empowerment Initiative

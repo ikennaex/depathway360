@@ -1,6 +1,8 @@
 import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa"; 
+import { IoIosMail } from "react-icons/io";
 
 import "./footer.css";
 import { pathway360logo } from "../imports";
@@ -10,14 +12,19 @@ const Footer = () => {
 
   console.log(date);
   return (
-    <div className="footer-main">
-      <div className="logoandname">
-        <img className="footer-logo" src={pathway360logo} alt="logo" />
-        <p className="logo-txt">DePathway360 Empowerment Initiative</p>
-      </div>
+    <div className="footer-main-main">
 
-      <div className="sociallinks-main">
-        <p className="social-txt">Connect with us</p>
+    <div className="footer-main">
+      <div>
+
+        <img className="footer-logo" src={pathway360logo} alt="logo" />
+      <div className="logoandname">
+        <p className="logo-txt">DePathway360 Empowerment Initiative</p>
+        <p className="logo-para">Our passion lies in helping people grow, empowering lives, and commitment to environmental stewardship. At DePathway360, we are guided by a vision to inspire hope among the youth through various educational programmes. We believe in facilitating young individuals to reach their full potential, surmount obstacles, and achieve life-changing, society-enhancing goals.</p>
+
+        {/* SOCIAL LINKS DIV  */}
+        <div className="sociallinks-main">
+        {/* <p className="social-txt">Connect with us</p> */}
         <div className="social-links">
 
           <a target="_blank" href="https://web.facebook.com/depathway360">
@@ -32,9 +39,28 @@ const Footer = () => {
         </div>
         
       </div>
+      </div>
 
-      <p className="copyright">Copyright DePathway360 @ {date}</p>
+      </div>
+
+      
+      <div className="contactmain-div"> 
+      <p className="contactus-txt">Contact us</p>
+        <div className="contactandicon">
+        <FaPhoneAlt color="#0E2279" size={20} />
+          Give us a Call +234 811 592 8769
+        </div>
+
+        <div className="contactandicon">
+        <IoIosMail color="#0E2279" size={25} />
+          Email us info@depathway360.org
+        </div>
+      </div>
+
     </div>
+      <p className="copyright">@ {date} DePathway360. All Rights Reserved </p>
+
+      </div>
   );
 };
 
