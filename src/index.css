@@ -30,6 +30,10 @@ a {
   outline: none;
 }
 
+a:hover {
+  color: #0E2279;
+}
+
 /* a:focus {
   outline: none;
 } */

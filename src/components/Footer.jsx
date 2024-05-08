@@ -1,8 +1,9 @@
 import React from "react";
 import { FaFacebook, FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
+import { FaXTwitter } from "react-icons/fa6";
 import { FaPhoneAlt } from "react-icons/fa"; 
 import { IoIosMail } from "react-icons/io";
+import { FaLinkedin } from "react-icons/fa";
 
 import "./footer.css";
 import { pathway360logo } from "../imports";
@@ -31,10 +32,16 @@ const Footer = () => {
             <FaFacebook color="#0E2279" size={25} />
           </a>
 
-          <FaTwitter color="#0E2279" size={25} />
+          <a target="_blank" href="https://twitter.com/depathway360">
+          <FaXTwitter  color="#0E2279" size={25} />
+          </a>
 
           <a target="_blank" href="https://www.instagram.com/depathway360empowerment/"> 
           <FaInstagram color="#0E2279" size={25} />
+          </a>
+
+          <a target="_blank" href="https://www.linkedin.com/company/depathway360/">
+          <FaLinkedin color="#0E2279" size={25}/>
           </a>
         </div>
         

@@ -21,6 +21,10 @@ const Navbar = () => {
         <Link to = "/contact">
         <p>Contact</p>
         </Link>
+
+        <Link to= '/programs'>
+          <p>Programs</p>
+        </Link>
       </div>
 
       <div>
