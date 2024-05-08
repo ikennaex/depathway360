@@ -14,13 +14,14 @@
     gap: 20px;
     background-color: #F8F8F8;
     padding: 5px 20px;
+    width: 50%;
 }
 
 .programs-title {
     color: #0E2279;
     font-weight: 600;
-    font-size: 20px;
-    margin-bottom: 0px;
+    font-size: 30px;
+    margin-bottom: 10px;
 }
 
 .program-img {
@@ -32,6 +33,14 @@
 .program-subtitle {
     font-size: 10px;
     color: gray;
+    margin-top: 0px;
+}
+
+@media only screen and (max-width: 900px) { 
+    .programlist-div {
+        width: 100%;
+        max-width: fit-content;
+    }
 }
 
 

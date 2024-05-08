@@ -2,9 +2,22 @@
     margin: 20px 50px;
 }
 
+.flexprogramdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .programdetails-title {
     font-size: 40px;
     font-weight: 600;
+    margin-top: 10px;
+}
+
+.depathway-programstxt {
+    color: #0E2279;
+    margin-bottom: 0;
 }
 
 .program-details-img {
@@ -15,7 +28,10 @@
 }
 
 .programdetailsinner-div {
-    width: 56%;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .programdetails-subtext {
@@ -24,8 +40,14 @@
 }
 
 .donatelink {
-    font-weight: 600;
-    color: #0E2279;
+    font-weight: 800;
+    color: #0E2279 !important;
+}
+
+@media only screen and (max-width: 1200px) {
+    .programdetailsinner-div{
+        width: 75%;
+    }
 }
 
 @media only screen and (max-width: 890px) {
@@ -40,7 +62,7 @@
     }
 
     .program-details-img {
-        width: 500px;
+        /* width: 500px; */
     }
 
     .programdetailsinner-div{
