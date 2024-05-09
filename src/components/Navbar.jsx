@@ -4,15 +4,14 @@ import { pathway360logo } from '../imports'
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
-  const [open, setOpen] = useState(true);
+  const [open, setOpen] = useState(false);
 
   const toggleMenu = () => {
     open ? setOpen(false) : setOpen(true);
   }
 
   return (
-    <div>
-      <div className='navbar-div'>
+    <div className='upper-navbar'>
       <div className='menuandlogo'>
         <Link to = "/">
         <img className='logo' src={pathway360logo} alt="" />
@@ -22,6 +21,7 @@ const Navbar = () => {
         <ion-icon name= {open? "close-outline" : "menu-outline"} ></ion-icon>
         </span>
       </div>
+      <div className='navbar-div'>
 
       <div className= {open? "innerlinks-div" : "innerlinks-diver"}>
       <div className='nav-links'>
@@ -38,7 +38,7 @@ const Navbar = () => {
         </Link>
       </div>
 
-      <div>
+      <div className='btn-div'>
         <Link to = "/donate">
         <button className='donate-btn'>Donate</button>
         </Link>

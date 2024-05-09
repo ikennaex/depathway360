@@ -6,6 +6,12 @@
     padding: 0 40px;
 }
 
+.upper-navbar {
+    display: flex;
+    justify-content: space-around;
+    background-color: #F8F8F8;
+}
+
 .innerlinks-div, .innerlinks-diver {
     display: flex;
     gap: 70px;
@@ -26,11 +32,13 @@
 }
 
 @media only screen and (max-width: 1000px) {
+    .upper-navbar {
+        display: block;
+    }
     .menuandlogo {
         display: flex;
         align-items: center;
-        width: fit-content;
-        justify-content: space-around;
+        justify-content: space-between;
     }
     
     .menu-icon {
@@ -42,6 +50,7 @@
 
     .navbar-div {
         flex-direction: column;
+        padding-bottom: 0px;
     }
     
     .innerlinks-div  {
@@ -70,14 +79,15 @@
 
     }
 
-
+    .btn-div {
+        padding-bottom: 30px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
 
     .navbar-div {
         padding: 0 10px;
-        padding-bottom: 30px;
     }
 
     .logo {
