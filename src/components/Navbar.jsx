@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import "./navbar.css"
 import { pathway360logo } from '../imports'
 import { Link } from 'react-router-dom';
@@ -10,8 +10,24 @@ const Navbar = () => {
     open ? setOpen(false) : setOpen(true);
   }
 
+  // NAVBAR TO HIDE 
+  const navbarRef = useRef(null);
+
+  useEffect(() => {
+    function handleClickOutside(event) {
+      if (navbarRef.current && !navbarRef.current.contains(event.target)) {
+        setOpen(false);
+      }
+    }
+
+    document.addEventListener('click', handleClickOutside);
+    return () => {
+      document.removeEventListener('click', handleClickOutside);
+    };
+  }, []);
+
   return (
-    <div className='upper-navbar'>
+    <div ref={navbarRef} className='upper-navbar'>
       <div className='menuandlogo'>
         <Link to = "/">
         <img className='logo' src={pathway360logo} alt="" />
