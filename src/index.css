@@ -22,12 +22,18 @@ button {
   border: none;
   font-family: 'DM Sans', sans-serif;
   cursor: pointer;
+
+  -webkit-tap-highlight-color: transparent;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 a {
   text-decoration: none;
   color: inherit;
   outline: none;
+
+  -webkit-tap-highlight-color: transparent;
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 a:hover {
@@ -50,3 +56,4 @@ a:visited {
   height: 20px;
   margin-bottom: 0;
 }
+
