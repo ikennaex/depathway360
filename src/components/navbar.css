@@ -75,7 +75,7 @@
     }
     
     .nav-links a {
-        border: 1px solid #a1a1a1;
+        /* border: 1px solid #a1a1a1; */
         height: 40px;
 
     }
@@ -106,3 +106,5 @@
         /* gap: 30px; */
     }
 }
+
+  

@@ -40,8 +40,9 @@
 }
 
 .donatelink {
-    font-weight: 800;
-    color: #0E2279 !important;
+    font-weight: 900;
+    font-size: 20px;
+    color: #f0a525 !important;
 }
 
 @media only screen and (max-width: 1200px) {

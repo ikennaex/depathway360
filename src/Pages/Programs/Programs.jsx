@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 const data = [
     {
         img: sendachild,
-        title: "Send a child to school project",
+        title: "Send A Child to School Project",
         subtitle: "Join the impactful mission of De Pathway360 Empowerment Initiative as we drive change through our scholarship project, Send A Child to School. This initiative is a lifeline for vulnerable, less privileged, downtrodden, and hopeless children in Nigeria who are denied the basic right to education.",
     }, 
 

@@ -52,7 +52,7 @@ const ProgramDetails = () => {
                 identify those most in need. The project is already in motion,
                 but the demand for support far exceeds our current resources.{" "}
                 <br /> <br />
-                <strong>What the Project Cover:</strong> <br />
+                <strong>What the Project Covers:</strong> <br />
                 The Send A Child to School Project is comprehensive, covering:
                 <ul>
                   <li>Tuition fees</li>
@@ -71,7 +71,7 @@ const ProgramDetails = () => {
                 and contributing to this noble course, you'll be directly
                 putting smiles on their faces and easing the burden on their
                 families as they embark on their educational journey. Every
-                contribution count, and together, we can pave the way for a
+                contribution counts, and together, we can pave the way for a
                 brighter future for these children. Tap the link{" "}
                 <Link className="donatelink" to="/donate">
                   DONATE
