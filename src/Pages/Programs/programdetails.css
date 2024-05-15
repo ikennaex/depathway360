@@ -13,6 +13,17 @@
     font-size: 40px;
     font-weight: 600;
     margin-top: 10px;
+    margin-bottom: 17px;
+    text-align: center;
+    line-height: 1.2;
+}
+
+.dateandauthor {
+    color: gray;
+}
+
+.dateandauthor p {
+    margin: 10px;
 }
 
 .depathway-programstxt {
@@ -25,6 +36,13 @@
     height: 400px;
     width: 700px;
     object-fit: cover;
+    margin-top: 0;
+}
+
+.programdetails-imgdiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .programdetailsinner-div {

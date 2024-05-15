@@ -20,10 +20,13 @@ const ProgramDetails = () => {
         return (
           <div className="flexprogramdiv">
             <p className="depathway-programstxt">De pathway360 Empowerment Initiative Programs</p>
-            <p className="programdetails-title">{data.title}</p>
 
             <div className="programdetailsinner-div">
+            <p className="programdetails-title">{data.title}</p>
+
+            <div className="programdetails-imgdiv">
               <img className="program-details-img" src={data.img} alt="" />
+            </div>
               <p className="programdetails-subtext">
                 Join the impactful mission of De Pathway360 Empowerment
                 Initiative as we drive change through our scholarship project,

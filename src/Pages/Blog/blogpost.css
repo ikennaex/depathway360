@@ -1,0 +1,21 @@
+.blogpost-div {
+    margin: 20px 50px;
+}
+
+.date-authorinfo{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    color: #0E0E4E;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 890px) {
+
+    .blogpost-div {
+        margin: 10px 30px;
+    }
+
+}

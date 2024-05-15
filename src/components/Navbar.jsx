@@ -52,6 +52,10 @@ const Navbar = () => {
         <Link to= '/programs'>
           <p>Programs</p>
         </Link>
+
+        <Link to= '/blog'>
+          <p>Blog</p>
+        </Link>
       </div>
 
       <div className='btn-div'>

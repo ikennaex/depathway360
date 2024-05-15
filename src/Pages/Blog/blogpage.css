@@ -1,0 +1,47 @@
+.blogmain-div  {
+    margin: 20px 30px;
+}
+
+.welcomeblog-txt {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.blogbox-maindiv {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.blogbox-div {
+    padding: 10px 25px;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+.blogbox-img {
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogbox-title {
+     font-size: 20px;
+     font-weight: 500;
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+    .blogbox-div{ 
+        width: 40%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .blogbox-div{ 
+        width: 100%;
+    }
+}
