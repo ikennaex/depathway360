@@ -1,5 +1,5 @@
 .textintro-maindiv {
-    margin: 90px 90px;
+    margin: 50px 90px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,6 +41,12 @@
     .textintro-img {
         height: 400px !important;
     }
+
+    .textintro-maindiv {
+        margin-top: 40px !important;
+        margin-bottom: 40px !important;
+    }
+
 }  
 
 
