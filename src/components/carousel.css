@@ -29,7 +29,6 @@
     /* object-fit: contain; */
     object-fit: none;
     object-position: top;
-    transition: transform .5s ease;
   }
   
   .carousel:hover .slide:after,
@@ -169,6 +168,22 @@
     padding: 0 160px;
     margin: 0;
   }
+
+  @media only screen and (max-width: 600px) {
+    .carousel {
+      height: 350px !important;
+      width: 600px !important;
+      /* overflow: hidden; */
+    }
+    
+    .carousel-img {
+      /* width: 100% !important; */
+    }
+    
+    .slide {
+      /* width: 50%; */
+    }
+   }
 
   @media only screen and (max-width: 900px) {
     .carousel {
