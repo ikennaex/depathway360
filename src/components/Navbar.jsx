@@ -34,7 +34,7 @@ const Navbar = () => {
         </Link>
 
         <span onClick={toggleMenu} className = "menu-icon">
-        <ion-icon name= {open? "close-outline" : "menu-outline"} ></ion-icon>
+        <ion-icon className = "menu-icon" name= {open? "close-outline" : "menu-outline"} ></ion-icon>
         </span>
       </div>
       <div className='navbar-div'>
@@ -60,7 +60,7 @@ const Navbar = () => {
 
       <div className='btn-div'>
         <Link to = "/donate">
-        <button className='donate-btn'>Donate</button>
+        <button className='donate-btn Btn'>Donate</button>
         </Link>
       </div>
 

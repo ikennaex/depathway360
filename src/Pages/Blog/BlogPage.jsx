@@ -1,80 +1,46 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import "./blogpage.css"
+import axios from 'axios'
 import { Link } from 'react-router-dom'
+import { baseUrl } from '../../baseUrl'
+import {format} from "date-fns"
+import Loader from '../../Loader'
 
-const blogData = [
-  
-  {
-    id: 1,
-    img: "https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis atque voluptate?",
-    date: "20th December 2024",
-    author: "De Pathway360"
-  },
-  
-  {
-    id: 2,
-    img: "https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis atque voluptate?",
-    date: "20th December 2024",
-    author: "De Pathway360"
-  },
-  
-  {
-    id: 3,
-    img: "https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis atque voluptate?",
-    date: "20th December 2024",
-    author: "De Pathway360"
-  },
-  
-  {
-    id: 4,
-    img: "https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis atque voluptate?",
-    date: "20th December 2024",
-    author: "De Pathway360"
-  },
-  
-  {
-    id: 5,
-    img: "https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis atque voluptate?",
-    date: "20th December 2024",
-    author: "De Pathway360"
-  },
-  
-  {
-    id: 6,
-    img: "https://images.pexels.com/photos/126271/pexels-photo-126271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    title: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur veritatis atque voluptate?",
-    date: "20th December 2024",
-    author: "De Pathway360"
-  },
-]
 
 const BlogPage = () => {
+
+  const [post, setPost] = useState([])
+
+  useEffect(() => {
+    axios.get(`${baseUrl}/publish`)
+    .then(response => {
+      setPost(response.data)
+    })
+  }, [])
+
   return (
     <div className='blogmain-div'>
       <p className='welcomeblog-txt'> Our Blog </p>
       
       <div className='blogbox-maindiv'>
-        {blogData.map((data) => {
+        {post.length > 0 ? post.map((data) => {
           return (
             <div className='blogbox-div'> 
-            <Link to = "/blog/blogid">
-          <img className='blogbox-img' src= {data.img} alt="" />
+            <Link to = {`/blog/${data._id}`}>
+          <img className='blogbox-img' src= {`${baseUrl}`+'/'+ data.image} alt="" />
             <p className='blogbox-title'>{data.title}</p>
 
             <div className='date-authorinfo'>
             <p>De Pathway360</p>
-            <p>March 20, 2024</p>
+            <p>
+              <time>{format(new Date(data.createdAt), 'MMM d, yyyy HH:mm')}</time>
+              </p>
             </div>
             
             </Link>
           </div>
           )
-        })}
+        }) : <Loader />}
       </div>
     </div>
   )

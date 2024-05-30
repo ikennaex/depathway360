@@ -2,26 +2,29 @@ import React from "react";
 import "./intro.css";
 import { introimg } from "../imports";
 import {Link} from "react-router-dom"
+import Carousel from "../components/Carousel";
+import CampaignTrack from "./CampaignTrack";
+import TextIntro from "../components/TextIntro";
 
 const Intro = () => {
   return (
+    <>
+    <div className="intro-top-div">
     <div className="intro-maindiv">
-      <div className="intro-imgdiv">
-        <img className="intro-img" src={introimg} alt="" />
-      </div>
 
+      <Carousel />
       <div className="intro-textdiv">
-      <h1 className="welcome-txt">Welcome to DePathway360 Official Website</h1>
-      {/* <p className="welcomeetxt-subtext">
-        Your kindness can make a lasting impact and change lives.
+      <h1 className="welcome-txt">Empowering through education and growth, building brighter futures for communities.</h1>
+      <p className="welcomeetxt-subtext">
+      At DePathway360, we are guided by a vision to inspire hope among the youth through various educational programmes. Our passion lies in helping people grow, empowering lives, and commitment to environmental stewardship.
       </p>
-
-      <Link to = '/donate'>
-      <button>Donate now</button>
-      </Link> */}
-
       </div>
     </div>
+
+    <CampaignTrack />
+    </div>
+    <TextIntro />
+    </>
   );
 };
 

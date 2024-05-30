@@ -1,0 +1,27 @@
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 450px;
+}
+
+.authform-div {
+    /* width: 450px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.loginform-txt { 
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.auth-input {
+    border-radius: 7.5px;
+    height: 40px;
+    font-size: 19px;
+    padding: 2px 15px;
+}

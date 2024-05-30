@@ -1,0 +1,12 @@
+.edit-deletebtn {
+    display: flex;
+    justify-content: space-between;
+}
+
+.deletepost-btn {
+    /* background-color: red; */
+}
+
+.editpost-btn{
+    /* background-color: green; */
+}

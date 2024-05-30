@@ -1,0 +1,36 @@
+.admin-main {
+    margin: 10px 20px;
+}
+
+
+.admin-innerdiv {
+    display: flex;
+    gap: 20px;
+}
+
+.adminpage-options {
+    background-color: rgb(194, 194, 194);
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.adminpage-options:hover {
+    background-color: #0E2279;
+    color: #FFFF;
+}
+
+.depathwayadmin-txt {
+    font-size: 35px;
+}
+
+.depathwayadmintxt-div {
+    /* width: 100%; */
+    top: 0;
+}
+
+.divide-div {
+    background-color: rgb(194, 194, 194);
+    width: 2px;
+    height: 100vh;
+}

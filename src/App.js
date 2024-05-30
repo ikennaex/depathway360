@@ -9,6 +9,14 @@ import Programs from './Pages/Programs/Programs';
 import ProgramDetails from './Pages/Programs/ProgramDetails';
 import BlogPage from './Pages/Blog/BlogPage';
 import BlogPost from './Pages/Blog/BlogPost';
+import Login from './Pages/Login';
+import Register from './Pages/Register';
+import axios from "axios";
+import Admin from './Pages/Admin/Admin';
+import Publish from './Pages/Admin/BlogPost/Publish';
+import EditPage from './Pages/Admin/BlogPost/EditPage';
+
+axios.defaults.withCredentials = true;
 
 function App() {
   return (
@@ -22,9 +30,13 @@ function App() {
           <Route path='/programs' element = {<Programs />} />
           <Route path='/programs/sendachildtoschoolproject' element = {<ProgramDetails />} />
           <Route path='/blog' element = {<BlogPage />} />
-          <Route path='/blog/blogid' element = {<BlogPost />} />
-
+          <Route path='/blog/:id' element = {<BlogPost />} />
         </Route>
+          <Route path='/login' element = {<Login />} />
+          <Route path='/register' element = {<Register />} />
+          <Route path='/admin' element = {<Admin />} />
+          <Route path='/publish' element = {<Publish />} />
+          <Route path='/admin/edit/:id' element = {<EditPage />} />
       </Routes>
     </div>
   );

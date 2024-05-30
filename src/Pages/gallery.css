@@ -1,5 +1,5 @@
 .gallery-maindiv {
-  margin: 20px 50px;
+  margin: 20px 90px;
 }
 
 .galleryimg-div {
@@ -51,10 +51,16 @@
 .picturengo-txt {
     font-size: 25px;
     font-weight: 600;
-    background-color: #ECB658;
-    color: #0e2279;
+    background-color: #FC4100;
+    color: #FFFF;
     padding: 20px 0px;
     width: 50%;
+}
+
+@media only screen and (max-width: 900px) {
+  .gallery-maindiv {
+      margin: 20px 30px;
+  }
 }
 
 @media only screen and (max-width: 600px) {

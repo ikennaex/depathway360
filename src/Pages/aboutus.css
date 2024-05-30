@@ -16,9 +16,15 @@
 
 
 .aboutus-maindiv {
-    margin: 20px 50px;
+    margin: 20px 90px;
 }
 
+@media only screen and (max-width: 900px) {
+    .aboutus-maindiv {
+        margin: 20px 30px;
+        text-align: justify;
+    }
+}
 
 @media only screen and (max-width: 600px) {
     

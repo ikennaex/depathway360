@@ -19,6 +19,7 @@ import gallery16 from "./assets/gallery/gallery-16.jpeg"
 import gallery17 from "./assets/gallery/gallery-17.jpeg"
 import gallery18 from "./assets/gallery/gallery-18.jpeg"
 import gallery19 from "./assets/gallery/gallery-19.jpeg"
+import gallery20 from "./assets/gallery/gallery-20.jpg"
 import sendachild from "./assets/programs/sendachildtoschool.jpg"
 
-export  {pathway360logo, introimg, gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15,gallery16, gallery17, gallery18, gallery19, sendachild};
+export  {pathway360logo, introimg, gallery1, gallery2, gallery3, gallery4, gallery5, gallery6, gallery7, gallery8, gallery9, gallery10, gallery11, gallery12, gallery13, gallery14, gallery15,gallery16, gallery17, gallery18, gallery19, gallery20,  sendachild};

@@ -1,0 +1,36 @@
+.publish-form {
+  display: flex;
+  flex-direction: column;
+  font-family: "DM Sans", sans-serif;
+  gap: 15px;
+  margin: 5px 10px;
+}
+
+.publish-logo{
+    height: 60px;
+}
+
+.publish-titletxt {
+  height: 50px;
+  font-size: 24px;
+  font-weight: bold;
+  border-radius: 10px;
+  padding: 0 10px;
+  border: 1px solid #c0c0c0;
+}
+
+.create-newpostdiv {
+     padding:0 10px;
+     background-color: #0E2279;
+     margin: 0;
+     height: 70px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.createnewpost-txt {
+    margin: 0;
+    color: #FFF;
+    font-size: 20px;
+}
