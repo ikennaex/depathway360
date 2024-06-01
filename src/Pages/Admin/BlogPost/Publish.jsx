@@ -6,6 +6,7 @@ import axios from "axios";
 import { baseUrl } from "../../../baseUrl";
 import { pathway360logo } from "../../../imports";
 import { Navigate } from "react-router-dom";
+import { MdArticle } from "react-icons/md";
 
 const Publish = () => {
   const [title, setTitle] = useState("");
@@ -61,7 +62,7 @@ const Publish = () => {
   return (
     <div>
       <div className="create-newpostdiv">
-        <img className="publish-logo" src={pathway360logo} alt="logo" />
+      <MdArticle size={30} color="#0E2279" />
         <p className="createnewpost-txt">Create a New Post</p>
       </div>
       <form onSubmit={publishPost} className="publish-form" action="">
@@ -72,8 +73,9 @@ const Publish = () => {
           type="text"
           placeholder="Input Title Here"
         />
+
         <input
-          className="publish-imginput"
+          className=""
           type="file"
           onChange={(e) => setFile(e.target.files)}
         />
