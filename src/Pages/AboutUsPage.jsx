@@ -1,5 +1,6 @@
 import React from 'react'
 import "./aboutuspage.css"
+import { organs } from "../imports";
 
 const AboutUsPage = () => {
   return (
@@ -7,11 +8,11 @@ const AboutUsPage = () => {
         <div className='about-div'>
             <p className='aboutuspageheader-txt'>About Us</p>
             <p className='about-us-p'>
-            Welcome to DePathway360 Empowerment Initiative
+            Welcome to De Pathway360 Empowerment Initiative
 
-            We are DePathway360 Empowerment Initiative, a non-profit, non-political, and non-governmental organization dedicated to fostering growth and positive change. Our passion lies in helping people grow, empowering lives, and commitment to environmental stewardship.
+            We are De Pathway360 Empowerment Initiative, a non-profit, non-political, and non-governmental organization dedicated to fostering growth and positive change. Our passion lies in helping people grow, empowering lives, and commitment to environmental stewardship.
 
-            At DePathway360, we are guided by a vision to inspire hope among the youth through various educational programmes. We believe in facilitating young individuals to reach their full potential, surmount obstacles, and achieve life-changing, society-enhancing goals. Through our charitable initiatives, we uplift both men and women, striving to lift them out of poverty and into a brighter future.
+            At De Pathway360, we are guided by a vision to inspire hope among the youth through various educational programmes. We believe in facilitating young individuals to reach their full potential, surmount obstacles, and achieve life-changing, society-enhancing goals. Through our charitable initiatives, we uplift both men and women, striving to lift them out of poverty and into a brighter future.
 
             In addition to our focus on individual empowerment, DePathway360 is committed to promoting attitudinal shifts and advocating a cleaner, safer environment. Our advocacy programs aim to raise awareness and foster a culture of environmental consciousness.
 
@@ -30,6 +31,11 @@ const AboutUsPage = () => {
             The Management team oversees the execution of decisions and manages the day-to-day operations. This team is led by the Executive Director (ED), who is also a member of the Board. Additionally, the Management includes the Project Implementation Body and Support Staff, ensuring effective implementation and support for our initiatives.
             </p>
             </p>
+
+
+            <div className='organ-container'>
+            <img className='organ-img' src= {organs} alt="" />
+            </div>
         </div>
     </div>
   )

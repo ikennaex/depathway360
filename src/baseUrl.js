@@ -1,1 +1,1 @@
-export const baseUrl = "https://depathway360-api.onrender.com/";
+export const baseUrl = "https://depathway360-api.onrender.com";

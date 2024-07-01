@@ -1,6 +1,5 @@
 import React from "react";
 import "./intro.css";
-import { introimg } from "../imports";
 import {Link} from "react-router-dom"
 import Carousel from "../components/Carousel";
 import CampaignTrack from "./CampaignTrack";
@@ -14,9 +13,9 @@ const Intro = () => {
 
       <Carousel />
       <div className="intro-textdiv">
-      <h1 className="welcome-txt">Empowering through education and growth, building brighter futures for communities.</h1>
+      <h1 className="welcome-txt">Creating a brighter future for all through education and support.</h1> 
       <p className="welcomeetxt-subtext">
-      At DePathway360, we are guided by a vision to inspire hope among the youth through various educational programmes. Our passion lies in helping people grow, empowering lives, and commitment to environmental stewardship.
+      At De Pathway360, we are guided by a vision to inspire hope among the youth through various educational programmes. Our passion lies in helping people grow, empowering lives, and commitment to environmental stewardship.
       </p>
       </div>
     </div>

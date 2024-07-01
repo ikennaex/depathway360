@@ -1,5 +1,6 @@
 import React from "react";
 import "./textintro.css";
+import { Link } from 'react-router-dom'
 import { gallery20 } from "../imports";
 
 const TextIntro = () => {
@@ -9,7 +10,8 @@ const TextIntro = () => {
       <div className="textintro-txt">
         <p>De Pathway360 Empowerment Initiative</p>
         Creating a world where empowerment, compassion, and sustainability
-        thrive De Pathway360 Empowerment Initiative is dedicated to transforming
+        thrive. <br />
+        De Pathway360 Empowerment Initiative is dedicated to transforming
         lives and communities through a multifaceted approach. We collaborate
         with individuals and organizations to instill hope, foster positive
         attitudes, engage in charitable endeavors, and champion environmental
@@ -17,7 +19,9 @@ const TextIntro = () => {
         change prevails, and our environment flourishes.
 
         <div>
+          <Link to = "/donate">
         <button className="btn-textintro">Donate</button>
+          </Link>
         </div>
 
       </div>
