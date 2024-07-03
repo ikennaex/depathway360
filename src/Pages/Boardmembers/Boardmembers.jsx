@@ -97,7 +97,7 @@ const Boardmembers = () => {
 
         <>
         <p className='aboutuspageheader-txt'>The Organs</p>
-            <p>
+            <p className='organs-info'>
             The Organs
 
             Our organization has three main organs: the Board of Trustees, Advisory Board, and Management.

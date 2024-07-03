@@ -20,22 +20,12 @@ const AboutUsPage = () => {
 
             Consider donating to support our worthy cause today and contribute to positive change.
 
-            <p className='aboutuspageheader-txt'>The Organs</p>
-            <p>
-            The Organs
-
-            Our organization has three main organs: the Board of Trustees, Advisory Board, and Management.
-
-            The Board of Trustees and Advisory Board of DePathway360 Empowerment Initiative comprises seven members, including three females and four males. This board serves as the organization's decision-making body, convening annually to assess performance, approve programs, and establish budgets.
-
-            The Management team oversees the execution of decisions and manages the day-to-day operations. This team is led by the Executive Director (ED), who is also a member of the Board. Additionally, the Management includes the Project Implementation Body and Support Staff, ensuring effective implementation and support for our initiatives.
-            </p>
             </p>
 
-
+{/* 
             <div className='organ-container'>
             <img className='organ-img' src= {organs} alt="" />
-            </div>
+            </div> */}
         </div>
     </div>
   )
