@@ -20,10 +20,16 @@ const boardMembers = [
   {
     img: folashade,
     name: "Folashade Olajuyin",
-    position: "Executive Director",
+    position: "Board Member",
     intro: "Folashade Olajuyin is a dynamic professional seamlessly balancing roles as a wife, mother, author, and lawyer. A law graduate from the University of Ado Ekiti, she excels in the legal field while also dedicating herself to personal development. Certified also as a life coach, neuro-linguistic programming (NLP) practitioner, and emotional intelligence expert, Folashade empowers individuals and organizations to reach their full potential. Through her writing and coaching, she inspires growth, resilience, and transformation, making her a unique and engaging figure in both the legal and personal development arenas."
   },
-
+  
+  {
+    img: ringya,
+    name: "Ringya Ibrahim",
+    position: "Board member",
+    intro: "Mrs. Ringya Ibrahim Rindap is a dedicated wife and mother, whose professional and academic achievements are truly commendable. A distinguished accounting postgraduate from the University of Abuja, Ringya combines her financial acumen with a profound passion for health and wellness. She has pursued several certifications in various health modules from the United Kingdom, showcasing her commitment to continuous learning and personal growth. Mrs. Ringya has a passion for stimulating social change, always wanting to leave people and places better than she met them. she currently resides in the United Kungdom with her family."
+  },
   // {
   //   img: erah,
   //   name: "Victor Erah",
@@ -37,12 +43,6 @@ const staff = [
     name: "Okechukwu Akano",
     position: "Monitoring and Evaluation Officer",
     intro: "Okechukwu Akano is a dynamic entrepreneur known for his outstanding leadership and unwavering dedication to both business and community service. With a diverse portfolio of thriving businesses, Okechukwu has proven himself as a visionary leader who can navigate and succeed in various sectors. His entrepreneurial spirit is complemented by his deep love for God, as he passionately ministers the gospel and inspires others through his faith. Okechukwu’s commitment to impacting lives is evident in his numerous contributions to community growth and development. He believes in the power of collective progress and actively engages and supports initiatives that uplift and empower others. His sound leadership qualities have seen him lead various groups across different sectors, earning him respect and admiration from peers and community members alike. A graduate of business, Okechukwu holds various certifications that attest to his expertise and dedication to continuous learning. His academic background provides a solid foundation for his entrepreneurial ventures, ensuring they are grounded in sound business principles and practices. He is also a devoted family man, happily married and blessed with lovely children."
-  },
-  {
-    img: ringya,
-    name: "Ringya Ibrahim",
-    position: "null",
-    intro: "Mrs. Ringya Ibrahim Rindap is a dedicated wife and mother, whose professional and academic achievements are truly commendable. A distinguished accounting postgraduate from the University of Abuja, Ringya combines her financial acumen with a profound passion for health and wellness. She has pursued several certifications in various health modules from the United Kingdom, showcasing her commitment to continuous learning and personal growth. Mrs. Ringya has a passion for stimulating social change, always wanting to leave people and places better than she met them. she currently resides in the United Kungdom with her family."
   },
 ]
 

@@ -15,6 +15,7 @@ import axios from "axios";
 import Admin from './Pages/Admin/Admin';
 import Publish from './Pages/Admin/BlogPost/Publish';
 import EditPage from './Pages/Admin/BlogPost/EditPage';
+import Boardmembers from './Pages/Boardmembers/Boardmembers';
 
 axios.defaults.withCredentials = true;
 
@@ -31,6 +32,7 @@ function App() {
           <Route path='/programs/sendachildtoschoolproject' element = {<ProgramDetails />} />
           <Route path='/blog' element = {<BlogPage />} />
           <Route path='/blog/:id' element = {<BlogPost />} />
+          <Route path='/board' element = {<Boardmembers />} />
         </Route>
           <Route path='/login' element = {<Login />} />
           <Route path='/register' element = {<Register />} />
