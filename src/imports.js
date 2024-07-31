@@ -21,6 +21,7 @@ import gallery19 from "./assets/gallery/gallery-19.jpeg"
 import gallery20 from "./assets/gallery/gallery-20.jpg"
 import organs from "./assets/organs.jpg";
 import sendachild from "./assets/programs/sendachildtoschool.jpg";
+import actofkindness from "./assets/programs/actofkindness.jpg";
 import executivedirector from "./assets/boardmembers/executivedirector.jpg";
 import executivedirector2 from "./assets/boardmembers/executivedirector2.jpg";
 import erah from "./assets/boardmembers/erah.jpg";
@@ -58,4 +59,5 @@ export {
   gallery19,
   gallery20,
   sendachild,
+  actofkindness,
 };

@@ -1,6 +1,6 @@
 import React from 'react'
 import "./programs.css"
-import { sendachild } from '../../imports'
+import { sendachild, actofkindness } from '../../imports'
 import { Link } from 'react-router-dom'
 
 const data = [
@@ -14,9 +14,9 @@ const data = [
 
     {
         id: 2,
-        img: sendachild,
+        img: actofkindness,
         title: "Acts of Kindness Projects",
-        subtitle: "In line with the De Pathway360 Empowerment Initiative’s objectives of instilling hope and empowering lives, the Acts of Kindness Projects were launched. The project encapsulates elements of our strategic pillars, objectives, and core values, and it is aimed at targeting the vulnerable, the less privileged, and the downtrodden in society. ",
+        subtitle: "In line with the De Pathway360 Empowerment Initiative’s objectives of instilling hope and empowering lives, the Acts of Kindness Projects were launched. The project encapsulates elements of our strategic pillars, objectives, and core values, and it is aimed... ",
         link: "/programs/actofkindness"
     }, 
 

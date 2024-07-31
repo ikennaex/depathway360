@@ -1,12 +1,12 @@
 import React from "react";
 import "./programdetails.css";
-import { sendachild } from "../../imports";
+import { actofkindness } from "../../imports";
 import { Link } from "react-router-dom";
 import { pathway360logo } from "../../imports";
 
 const data = [
   {
-    img: sendachild,
+    img: actofkindness,
     title: "Act of Kindness Projects",
     body: "",
   },
