@@ -43,11 +43,12 @@ const ProgramDetails = () => {
                 We are committed to sending 1000 deserving children to school
                 within three years and supporting them through their educational
                 journey to college. <br /> <br />
-                <strong>
-                  <Link className="donatelink" to="/donate">
+                <a href="https://paystack.com/pay/ux57wgp7a6">
+                <strong
+                  className="donatelink" to="/donate">
                     DONATE
-                  </Link>{" "}
                 </strong>
+                    </a>
                 <br /> <br />
                 To ensure our impact is targeted and effective, we've conducted
                 rigorous assessments, visiting schools across communities,
@@ -68,17 +69,23 @@ const ProgramDetails = () => {
                 How Can You Be Part of This Project? Your donation, no matter
                 how small, can significantly impact these children's lives. By
                 tapping the link{" "}
-                <Link className="donatelink" to="/donate">
-                  DONATE
-                </Link>{" "}
+                <a href="https://paystack.com/pay/ux57wgp7a6">
+                <strong
+                  className="donatelink" to="/donate">
+                    DONATE
+                </strong>
+                    </a>{" "}
                 and contributing to this noble course, you'll be directly
                 putting smiles on their faces and easing the burden on their
                 families as they embark on their educational journey. Every
                 contribution counts, and together, we can pave the way for a
                 brighter future for these children. Tap the link{" "}
-                <Link className="donatelink" to="/donate">
-                  DONATE
-                </Link>{" "}
+                <a href="https://paystack.com/pay/ux57wgp7a6">
+                <strong
+                  className="donatelink" to="/donate">
+                    DONATE
+                </strong>
+                    </a> {" "}
                 link to make your contribution. God bless you!
               </p>
             </div>

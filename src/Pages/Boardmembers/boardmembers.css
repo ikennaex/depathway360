@@ -8,6 +8,7 @@
     text-align: center;
     font-weight: 600;
     color: #0e2279;
+    margin-top: 100px;
 }
 
 .members-div {
@@ -50,6 +51,11 @@
     text-align: justify;
     padding: 0 10px;
     margin: 0;
+}
+
+.line-div {
+    height: 1.1px;
+    background-color: grey;
 }
 
 @media only screen and (max-width: 1300px) {

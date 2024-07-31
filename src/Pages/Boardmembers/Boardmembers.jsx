@@ -29,7 +29,7 @@ const boardMembers = [
     img: ringya,
     name: "Ringya Ibrahim",
     position: "Board member",
-    intro: "Mrs. Ringya Ibrahim Rindap is a dedicated wife and mother, whose professional and academic achievements are truly commendable. A distinguished accounting postgraduate from the University of Abuja, Ringya combines her financial acumen with a profound passion for health and wellness. She has pursued several certifications in various health modules from the United Kingdom, showcasing her commitment to continuous learning and personal growth. Mrs. Ringya has a passion for stimulating social change, always wanting to leave people and places better than she met them. she currently resides in the United Kungdom with her family."
+    intro: "Mrs. Ringya Ibrahim Rindap is a dedicated wife and mother, whose professional and academic achievements are truly commendable. A distinguished accounting postgraduate from the University of Abuja, Ringya combines her financial acumen with a profound passion for health and wellness. She has pursued several certifications in various health modules from the United Kingdom, showcasing her commitment to continuous learning and personal growth. Mrs. Ringya has a passion for stimulating social change, always wanting to leave people and places better than she met them. she currently resides in the United Kingdom with her family."
   },
   // {
   //   img: erah,
@@ -50,6 +50,24 @@ const staff = [
 const Boardmembers = () => {
   return (
     <div className='boardmembers-div'>
+        <>
+        <p className='aboutuspageheader-txt'>The Organs</p>
+            <p className='organs-info'>
+            The Organs
+
+            Our organization has three main organs: the Board of Trustees, Advisory Board, and Management.
+
+            The Board of Trustees and Advisory Board of DePathway360 Empowerment Initiative comprises seven members, including three females and four males. This board serves as the organization's decision-making body, convening annually to assess performance, approve programs, and establish budgets.
+
+            The Management team oversees the execution of decisions and manages the day-to-day operations. This team is led by the Executive Director (ED), who is also a member of the Board. Additionally, the Management includes the Project Implementation Body and Support Staff, ensuring effective implementation and support for our initiatives.
+            </p>
+            {/* </p> */}
+
+
+            <div className='organ-container'>
+            <img className='organ-img' src= {organs} alt="" />
+            </div>
+            </>
         <p className='meetboard-txt'>Meet Our Board Members</p>
 
         <div>
@@ -71,6 +89,8 @@ const Boardmembers = () => {
               ))
             }
           </div>
+
+          <div className='line-div'></div>
 
           <p className='meetboard-txt'>Meet Our Staff</p>
           <div>
@@ -95,24 +115,6 @@ const Boardmembers = () => {
           </div>
         </div>
 
-        <>
-        <p className='aboutuspageheader-txt'>The Organs</p>
-            <p className='organs-info'>
-            The Organs
-
-            Our organization has three main organs: the Board of Trustees, Advisory Board, and Management.
-
-            The Board of Trustees and Advisory Board of DePathway360 Empowerment Initiative comprises seven members, including three females and four males. This board serves as the organization's decision-making body, convening annually to assess performance, approve programs, and establish budgets.
-
-            The Management team oversees the execution of decisions and manages the day-to-day operations. This team is led by the Executive Director (ED), who is also a member of the Board. Additionally, the Management includes the Project Implementation Body and Support Staff, ensuring effective implementation and support for our initiatives.
-            </p>
-            {/* </p> */}
-
-
-            <div className='organ-container'>
-            <img className='organ-img' src= {organs} alt="" />
-            </div>
-            </>
     </div>
   )
 }
