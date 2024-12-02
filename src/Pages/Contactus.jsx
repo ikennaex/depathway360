@@ -5,7 +5,11 @@ import { IoIosMail } from "react-icons/io";
 
 const Contactus = () => {
   return (
-    <div>
+    <div className="homegallery-maindiv">
+      <div className="textdesign-div">
+        <div className="text-decor"></div>
+        <p className="aboutus-text">Contact Us</p>
+      </div>
       <div className="contactform-section">
         <h2 className="contactform-text">
           Input your request in the form below

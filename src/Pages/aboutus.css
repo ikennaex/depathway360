@@ -15,18 +15,36 @@
 
 .aboutus-p {
     font-size: 20px;
+    text-align: justify;
 }
-
-
 
 .aboutus-maindiv {
     margin: 20px 90px;
+}
+
+.about-sideimg {
+    height: 400px;
+}
+
+.aboutinner-flex {
+    display: flex;
+    gap: 50px;
 }
 
 @media only screen and (max-width: 900px) {
     .aboutus-maindiv {
         margin: 20px 30px;
         text-align: justify;
+    }
+    
+    .about-sideimg {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .aboutinner-flex { 
+        flex-wrap: wrap;
+        gap: 20px;
     }
 }
 

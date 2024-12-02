@@ -23,7 +23,7 @@ const EditPage = () => {
           setBody(response.data.body)
 
       })
-    }, [])
+    })
 
     const editPost = async (e) => {
       e.preventDefault();

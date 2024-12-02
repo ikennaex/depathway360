@@ -63,7 +63,7 @@ const Navbar = () => {
       </div>
 
       <div className='btn-div'>
-        <Link to = "/donate">
+        <Link to = "https://paystack.com/pay/j7euo0rbi6">
         <button className='donate-btn Btn'>Donate</button>
         </Link>
       </div>

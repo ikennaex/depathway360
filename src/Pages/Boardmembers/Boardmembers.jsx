@@ -1,6 +1,6 @@
 import React from 'react'
 import "./boardmembers.css"
-import {erah, executivedirector, executivedirector2, boardchairman,folashade, ringya, organs} from "../../imports"
+import {executivedirector, executivedirector2, boardchairman,folashade, ringya, organs} from "../../imports"
 
 
 const boardMembers = [

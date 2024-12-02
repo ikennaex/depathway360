@@ -3,7 +3,6 @@ import "./blogpost.css";
 import { baseUrl } from "../../baseUrl";
 import axios from "axios";
 import { useParams } from "react-router-dom";
-import { format } from "date-fns";
 
 const BlogPost = () => {
   const { id } = useParams();
@@ -14,7 +13,7 @@ const BlogPost = () => {
       console.log(response.data)
       setPost(response.data);
     });
-  }, []);
+  });
   
   return (
     <div className="blogpost-div">

@@ -4,7 +4,6 @@ import "react-quill/dist/quill.snow.css";
 import "./publish.css";
 import axios from "axios";
 import { baseUrl } from "../../../baseUrl";
-import { pathway360logo } from "../../../imports";
 import { Navigate } from "react-router-dom";
 import { MdArticle } from "react-icons/md";
 
@@ -39,7 +38,7 @@ const Publish = () => {
     data.set("file", file[0]);
     data.set("body", body);
 
-    const response = axios
+    axios
       .post(`${baseUrl}/publish`, data)
       .then((response) => {
         console.table(response);

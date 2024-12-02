@@ -5,8 +5,8 @@ import { gallery20 } from "../imports";
 
 const TextIntro = () => {
   return (
-    <div className="textintro-upper">
-    <div className="textintro-maindiv">
+    <div className="textintro-upper ">
+    <div className="textintro-maindiv transition">
       <div className="textintro-txt">
         <p>De Pathway360 Empowerment Initiative</p>
         Creating a world where empowerment, compassion, and sustainability
@@ -19,7 +19,7 @@ const TextIntro = () => {
         change prevails, and our environment flourishes.
 
         <div>
-          <Link to = "/donate">
+          <Link to = "https://paystack.com/pay/j7euo0rbi6">
         <button className="btn-textintro">Donate</button>
           </Link>
         </div>

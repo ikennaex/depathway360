@@ -1,8 +1,6 @@
 import React from "react";
 import "./programdetails.css";
 import { actofkindness } from "../../imports";
-import { Link } from "react-router-dom";
-import { pathway360logo } from "../../imports";
 
 const data = [
   {

@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import "./aboutuspage.css"
-import { organs } from "../imports";
 
 const AboutUsPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div className='aboutus-maindiv'>
         <div className='about-div'>

@@ -1,0 +1,38 @@
+.homegallery-maindiv {
+    margin: 20px 90px;
+}
+
+.gallary-collage-div {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.photocollage-img {
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+
+.galleryviewmore-txtdiv {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.galleryviewmore-txt {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+    .homegallery-maindiv {
+        margin: 20px 30px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .homegallery-maindiv {
+        margin: 20px 20px;
+    }
+}

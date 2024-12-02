@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./blogdisplay.css";
-import { Link, useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import { baseUrl } from "../../../baseUrl";
 import { MdDelete, MdModeEdit } from "react-icons/md";
 import { format } from "date-fns";

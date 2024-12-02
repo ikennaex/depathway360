@@ -3,14 +3,12 @@
 }
 
 .galleryimg-div {
-    text-align: center;
-    font-weight: 500;
   display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
 }
-
 
 .gallery-txt {
     font-size: 35px;
@@ -20,42 +18,12 @@
     margin-top: 0;
 }
 
-.gallery-img {
-    height: 300px;
-    width: 300px;
-    object-fit: none;
-    object-position: top;
-    transition: transform .5s ease;
+.gallerypage-img {
+  height: 400px;
+  /* width: 100%; */
+  object-fit: cover;
 }
 
-.gallery-img:hover {
-    cursor: pointer;
-    transform: scale(1.05);
-}
-
-.community-img {
-    object-position: center;
-}
-
-.orphanage-img {
-    object-position: top;
-}
-
-.picturesngo {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-}
-
-.picturengo-txt {
-    font-size: 25px;
-    font-weight: 600;
-    background-color: #FC4100;
-    color: #FFFF;
-    padding: 20px 0px;
-    width: 50%;
-}
 
 @media only screen and (max-width: 900px) {
   .gallery-maindiv {

@@ -17,6 +17,7 @@ import Publish from './Pages/Admin/BlogPost/Publish';
 import EditPage from './Pages/Admin/BlogPost/EditPage';
 import Boardmembers from './Pages/Boardmembers/Boardmembers';
 import Actofkindness from './Pages/Programs/Actofkindness';
+import Gallery from './Pages/Gallery';
 
 axios.defaults.withCredentials = true;
 
@@ -30,6 +31,7 @@ function App() {
           <Route path='/contact' element = {<Contactus />} />
           <Route path='/donate' element = {<Donate />} />
           <Route path='/programs' element = {<Programs />} />
+          <Route path='/gallery' element = {<Gallery />} />
           <Route path='/programs/sendachildtoschoolproject' element = {<ProgramDetails />} />
           <Route path='/programs/actofkindness' element = {<Actofkindness />} />
           <Route path='/blog' element = {<BlogPage />} />

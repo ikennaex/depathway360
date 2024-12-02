@@ -11,7 +11,6 @@ import { pathway360logo } from "../imports";
 const Footer = () => {
   const date = new Date().getFullYear();
 
-  console.log(date);
   return (
     <div className="footer-main-main">
 
@@ -28,19 +27,19 @@ const Footer = () => {
         {/* <p className="social-txt">Connect with us</p> */}
         <div className="social-links">
 
-          <a target="_blank" href="https://web.facebook.com/depathway360">
+          <a target="_blank" rel="noreferrer" href="https://web.facebook.com/depathway360">
             <FaFacebook color="#0E2279" size={25} />
           </a>
 
-          <a target="_blank" href="https://twitter.com/depathway360">
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/depathway360">
           <FaXTwitter  color="#0E2279" size={25} />
           </a>
 
-          <a target="_blank" href="https://www.instagram.com/depathway360empowerment/"> 
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/depathway360empowerment/"> 
           <FaInstagram color="#0E2279" size={25} />
           </a>
 
-          <a target="_blank" href="https://www.linkedin.com/company/depathway360/">
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/depathway360/">
           <FaLinkedin color="#0E2279" size={25}/>
           </a>
         </div>

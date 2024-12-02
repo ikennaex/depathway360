@@ -1,8 +1,6 @@
 import React from "react";
 import "./programdetails.css";
 import { sendachild } from "../../imports";
-import { Link } from "react-router-dom";
-import { pathway360logo } from "../../imports";
 
 
 const data = [
